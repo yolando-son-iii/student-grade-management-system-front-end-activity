@@ -1,0 +1,57 @@
+.student-card {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.student-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.student-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.student-id {
+  background: rgba(255, 255, 255, 0.2);
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.student-email {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.card-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-edit {
+  background: white;
+  color: #f5576c;
+  flex: 1;
+}
+
+.btn-edit:hover {
+  background: #f0f0f0;
+}
+
+.btn-delete {
+  background: #e74c3c;
+  color: white;
+  flex: 1;
+}
+
+.btn-delete:hover {
+  background: #c0392b;
+}
